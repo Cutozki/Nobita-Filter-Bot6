@@ -25,10 +25,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖  ᴜᴘᴅᴀᴛᴇꜱ  🤖', url="https://telegram.me/NobiDeveloper")
+                InlineKeyboardButton('🤖  ᴜᴘᴅᴀᴛᴇꜱ  🤖', url="https://telegram.me/Mkvtvseries")
             ],
             [
-                InlineKeyboardButton('♻️  ᴘʟᴇᴀꜱᴇ ꜱʜᴀʀᴇ  ♻️', url=f"https://telegram.me/share/url?url=telegram.me/BotszList"),
+                InlineKeyboardButton('♻️  ᴘʟᴇᴀꜱᴇ ꜱʜᴀʀᴇ  ♻️', url=f"https://telegram.me/share/url?url=telegram.me/HW_NEW"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -135,7 +135,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/BotszList")
+                          InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/HW_NEW")
                          ]
                         ]
                     )
@@ -151,7 +151,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/BotszList")
+                          InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/HW_NEW")
                          ]
                         ]
                     )
@@ -175,7 +175,7 @@ async def start(client, message):
                         btn = [[
                             InlineKeyboardButton("♻️  ᴄʟɪᴄᴋ ᴛᴏ ᴠᴇʀɪꜰʏ  ♻️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id))
                         ],[
-                            InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ  ⁉️', url="https://youtu.be/0c-i2Lol6LU")
+                            InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ  ⁉️', url="https://telegram.me/share/url?url=telegram.me/Mkvtvseries")
                         ]]
                         await message.reply_text(
                             text="<b>You are not verified !\nKindly verify to continue !</b>",
@@ -190,7 +190,7 @@ async def start(client, message):
                         reply_markup=InlineKeyboardMarkup(
                             [
                              [
-                              InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/BotszList")
+                              InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/HW_NEW")
                              ]
                             ]
                         )
@@ -226,7 +226,7 @@ async def start(client, message):
                 btn = [[
                             InlineKeyboardButton("♻️  ᴄʟɪᴄᴋ ᴛᴏ ᴠᴇʀɪꜰʏ  ♻️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id))
                         ],[
-                            InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ  ⁉️', url="https://youtu.be/0c-i2Lol6LU")
+                            InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ  ⁉️', url="https://telegram.me/share/url?url=telegram.me/Mkvtvseries")
                     ]]
                 await message.reply_text(
                     text="<b>You are not verified !\nKindly verify to continue !</b>",
@@ -242,7 +242,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/BotszList")
+                      InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/HW_NEW")
                      ]
                     ]
                 )
@@ -318,7 +318,7 @@ async def start(client, message):
             btn = [[
                 InlineKeyboardButton("Get File", url=f"https://telegram.me/{temp.U_NAME}?start=files_{fileid}")
             ],[
-                InlineKeyboardButton('🎪  ꜱᴜʙꜱᴄʀɪʙᴇ ᴍʏ ʏᴛ ᴄʜᴀɴɴᴇʟ  🎪', url='https://youtube.com/@MovieVillaYT')
+                InlineKeyboardButton('🎪  ꜱᴜʙꜱᴄʀɪʙᴇ ᴍʏ ʏᴛ ᴄʜᴀɴɴᴇʟ  🎪', url='https://telegram.me/share/url?url=telegram.me/Mkvtvseries')
             ]]
             await message.reply_photo(
                 photo='https://telegra.ph/file/99634722e5277095bf1e7.jpg',
@@ -341,7 +341,7 @@ async def start(client, message):
                 btn = [[
                     InlineKeyboardButton("♻️  ᴄʟɪᴄᴋ ᴛᴏ ᴠᴇʀɪꜰʏ  ♻️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id))
                 ],[
-                    InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ  ⁉️', url="https://youtu.be/GdaUbzxDTKs")
+                    InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ  ⁉️', url="https://telegram.me/share/url?url=telegram.me/Mkvtvseries")
                 ]]
                 await message.reply_text(
                     text=f"<b> {message.from_user.mention},</b>\n\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ,\nᴘʟᴇᴀꜱᴇ ᴠᴇʀɪꜰʏ ɴᴏᴡ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ 😊\n\n<b>इस  बॉट  को  इस्तेमाल  करने  के  लिए  आपको  ᴠᴇʀɪꜰʏ  करना  होगा  नहीं  तो  आप  इसका  इस्तेमाल  नहीं  कर  पाएंगे ।</b>",
@@ -356,7 +356,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/BotszList")
+                      InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/HW_NEW")
                      ]
                     ]
                 )
@@ -392,7 +392,7 @@ async def start(client, message):
         btn = [[
             InlineKeyboardButton("♻️  ᴄʟɪᴄᴋ ᴛᴏ ᴠᴇʀɪꜰʏ  ♻️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id))
         ],[
-            InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ  ⁉️', url="https://youtu.be/GdaUbzxDTKs")
+            InlineKeyboardButton('⁉️  ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ  ⁉️', url="https://telegram.me/share/url?url=telegram.me/Mkvtvseries")
         ]]
         await message.reply_text(
             text=f"<b> {message.from_user.mention},</b>\n\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ,\nᴘʟᴇᴀꜱᴇ ᴠᴇʀɪꜰʏ ɴᴏᴡ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ 😊\n\n<b>इस  बॉट  को  इस्तेमाल  करने  के  लिए  आपको  ᴠᴇʀɪꜰʏ  करना  होगा  नहीं  तो  आप  इसका  इस्तेमाल  नहीं  कर  पाएंगे ।</b>",
@@ -408,7 +408,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/BotszList")
+              InlineKeyboardButton("❤️‍🔥 ᴄʜᴀɴɴᴇʟ​ ❤️‍🔥", url="https://telegram.me/HW_NEW)
              ]
             ]
         )
