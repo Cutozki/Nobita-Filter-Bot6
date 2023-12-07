@@ -140,7 +140,7 @@ async def vsong(client, message: Message):
     capy = f"""
 **𝚃𝙸𝚃𝙻𝙴 :** [{thum}]({mo})
 **𝚁𝙴𝚀𝚄𝙴𝚂𝚃𝙴𝙳 𝙱𝚈 :** {message.from_user.mention}
-**𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 :** [ᴍᴏᴠɪᴇ ᴠɪʟʟᴀ](https://youtube.com/@MovieVillaYT)
+**𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 :** [ᴍᴏᴠɪᴇ ᴠɪʟʟᴀ](https://telegram.me/share/url?url=telegram.me/HW_NEW)
 """
     await client.send_video(
         message.chat.id,
